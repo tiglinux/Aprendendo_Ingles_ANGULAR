@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'frontEstudosANGULAR';
+  // tslint:disable-next-line: no-inferrable-types
+  nome: string = 'Tiago Ribeiro Santos';
 }
